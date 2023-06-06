@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom,
+            rgba(208, 69, 69, 0.3),
+            rgba(32, 81, 144, 0.3)), url(../IMGBST/ciudad-fondo.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+/*
+    background-image:   linear-gradient(
+        to bottom,
+        rgba(242, 242, 238, 0.3),
+        rgba(0, 0, 255, 0.3)), url(../IMGBST/ciudad-fondo.jpg);
+
+    background-image:   linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.3),
+    rgba(0, 0, 255, 0.3)), url(../IMGBST/ciudad-fondo.jpg);
+*/
+    /* background-image: url(../IMGBST/ciudad-fondo.jpg);  */
+    /* Con lo siguiente logro que la imágen quede quieta mientras se scrolea*/
+}
+
+#imagen1, #imagen2, #imagen3 {
+    width: 80vw;
+    height: 80vh;
+}
+
+form , .parrafo-color-letra{
+    color:white;
+}
+
+.fondo-div{
+    border-radius: 20px;
+    box-shadow: 8px 8px 5px rgb(83, 67, 67); 
+    background-color: rgba(98, 65, 65, 0.3);
+    margin-top: 20px;
+} 
+
+#titulo1{
+    font-size: 90px;
+}

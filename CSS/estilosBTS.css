@@ -1,47 +1,32 @@
 *{
-    padding: 0;
+    padding: 0; 
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(../IMGBST/ciudad-fondo.jpg); 
-    /* Con lo siguiente logro que la imágen quede quieta mientras se scrolea*/
+body {
+    background-image: linear-gradient(to bottom, rgba(208, 69, 69, 0.3), rgba(32, 81, 144, 0.3)), url(../IMGBST/ciudad-fondo.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-attachment: fixed;
 }
 
-#imagen1{
+#imagen1, #imagen2, #imagen3 {
     width: 80vw;
     height: 80vh;
 }
 
-#imagen2{
-    width: 80vw;
-    height: 80vh;
+form , .parrafo-color-letra{
+    color:white;
 }
 
-#imagen3{
-    width: 80vw;
-    height: 80vh;
-}
-
-form{
-    color: aliceblue;
-}
-
-.parrafo-color-letra{
-    color: antiquewhite;
-}
-
-#fondo-div{
+.fondo-div{
     border-radius: 20px;
-    box-shadow: 8px 8px 5px rgb(200, 166, 166); /*eje x eje y blur color*/
-    background-color: rgba(94, 86, 86, 0.3);
-    height: 84%;
-}
+    box-shadow: 8px 8px 5px rgb(83, 67, 67); 
+    background-color: rgba(98, 65, 65, 0.3);
+    margin-top: 20px;
+} 
 
 #titulo1{
-    font-size: 100px;
+    font-size: 90px;
 }

@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="CSS/estilosBTS.css">
 </head>
 <body>   
-<!-- style="background-image: url(../IMGBST/ciudad-fondo.jpg);"> -->
-    <!-- NAVBAR -->
+
+    <!-- NAVBAR Falta agregar el JS para que cierre el menú al hacer click en su destino link-->
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">N/M</a>
@@ -30,7 +30,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#proyectos">Portafolio</a>
+                        <a class="nav-link" href="#proyectos">Prácticas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#form">Contacto</a>
@@ -50,6 +50,7 @@
             </div>
         </div>
     </nav>
+
     <!-- CARRUSEL -->
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -93,117 +94,168 @@
         </button>
     </div>
 
-    <!-- No he logrado que este sticky haga efecto como quiero -->
-    <div class="position-sticky">
+    <!-- TITULO -->
+    <div>
         <h1 id="titulo1" class="text-light text-center" >Diseño y desarrollo Web</h1>
     </div>
 
-
-    <!-- Prueba uno -->
     <hr style="color:white">
 
-    <!-- Tarjeta de bootstrap con texto -->
-    <div class="container text-center">
-        <div class="row">
-            <div class="col col-4">
-                <div class="card m-5" style="width: 18rem;">
-                    <img src="IMGBST/BTSlogo.jpg" class="card-img-top" alt="Logo BTS">
-                    <div class="card-body">
-                        <h5 class="card-title">Bootstraap</h5>
-                        <p class="card-text">El uso de esta herramienta requiere un esthudio de sus Docs y practicar a fin
-                            de dominar sus funciones.
-                        </p>
-                        <a target="_blank" href="https://getbootstrap.com/" class="btn btn-primary">Ir a Bootstrap</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-8">
-                <div class="m-5 fondo-div">
-                    <p class="text-start fs-2 opacity-75 parrafo-color-letra">La creatividad es un hecho fundamental.</p>
-                    <p class="text-center fs-1 parrafo-color-letra">Lo que se quiere hacer marca el camino.</p>
-                    <p class="text-end fs-3 parrafo-color-letra">Cómo se quiere hacer nos marca la herramienta.</p>
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text parrafo-color-letra">Some quick example text to build on the card title and make up the bulk
-                        of the card's content.</p>
-                    <a target="_blank" href="#" class="btn btn-light">Bootstrap w3schools</a>
+
+<!-- Tarjeta de explicación con texto  -->
+    <div class="container text-center containerMisCards">
+        <div class="col">
+            <div class="card mx-auto" style="width: 20rem;">
+                <img src="IMGBST/ciudad-fondo.jpg" class="card-img-top" alt="Logo BTS">
+                <div class="card-body">
+                    <h5 class="card-title">Explicación</h5>
+                    <p class="card-text">Se esta probando el uso de BTS para la creación de sitios web.
+                    </p>
+                    <a target="_blank" href="#form" class="btn btn-primary">Ir a Contacto</a>
                 </div>
             </div>
         </div>
+        <div class="col">
+            <div class="container fondo-div">
+                <p class="fs-2 parrafo-color-letra">
+                    Este trabajo esta pensado para aprender las bases elementales de BTS. Jugar con las sombras, las
+                    alineaciones y los espacios del framework. <br>
+                    El trabajo se basa en HTML 5 con apenas unas pocas líneas en CSS 3. <br>
+                    La intención es usar lo más posible las clases de Bootstrap.
+                </p>
+                <a target="_blank" href="https://github.com/NicolasMelgar/WebBootstrap-1" class="btn btn-light">Ver
+                    Repositorio</a>
+            </div>
+        </div>
+        </div>
+
+<br><hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Tarjeta de bootstrap con texto -->
+    <div class="container text-center containerMisCards">
+        <div class="col">
+            <div class="card mx-auto" style="width: 20rem;">
+                <img src="IMGBST/BTSlogo.jpg" class="card-img-top" alt="Logo BTS">
+                <div class="card-body">
+                    <h5 class="card-title">Bootstraap</h5>
+                    <p class="card-text">El uso de esta herramienta requiere un esthudio de sus Docs y practicar a
+                        fin
+                        de dominar sus funciones.
+                    </p>
+                    <a target="_blank" href="https://getbootstrap.com/" class="btn btn-primary">Ir a Bootstrap</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="container fondo-div">
+                <p class="text-start fs-2 opacity-75 parrafo-color-letra">La creatividad es un hecho fundamental.
+                </p>
+                <p class="text-center fs-1 parrafo-color-letra">Lo que se quiere hacer marca el camino.</p>
+                <p class="text-end fs-3 parrafo-color-letra">Cómo se quiere hacer nos marca la herramienta.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text parrafo-color-letra">Some quick example text to build on the card title and make
+                    up the bulk
+                    of the card's content.</p>
+                <a target="_blank" href="#" class="btn btn-light">Bootstrap w3schools</a>
+            </div>
+        </div>
     </div>
-    <!-- </div>
-        </div> -->
-    
+
     <hr style="color:white">
     
     <!-- Tarjeta de html con teto -->
-    <div class="container text-center">
-        <div class="row">
-            <div class="col col-4">
-                <div class="card m-5" style="width: 18rem;">
-                    <img src="IMGBST/HTMLlogo.jpg" class="card-img-top" alt="Logo HTML">
-                    <div class="card-body">
-                        <h5 class="card-title">HTML 5</h5>
-                        <p class="card-text">El uso de esta herramienta requiere un esthudio de sus Docs y practicar a fin
-                            de dominar sus funciones.
-                        </p>
-                        <a target="_blank" href="https://es.wikipedia.org/wiki/HTML" class="btn btn-primary">Ir a HTML</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-8">
-                <div class="m-5 fondo-div">
-                    <p class="text-start fs-2 opacity-75 parrafo-color-letra">Si bien no es un lenguaje de programación</p>
-                    <p class="text-center fs-1 parrafo-color-letra">Es la herramienta de maquetación imprescindible.</p>
-                    <p class="text-end fs-3 parrafo-color-letra">Sin dudas, desde él y con él se pueden lograr increíbles
-                        efectos.</p>
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text parrafo-color-letra">Some quick example text to build on the card title and make up the bulk
-                        of the card's content.</p>
-                    <a target="_blank" href="https://www.w3schools.com/html/default.asp" class="btn btn-light">HTML 5
-                        w3schools</a>
+    <div class="container text-center containerMisCards">
+    
+        <div class="col mx-auto">
+            <div class="card mx-auto" style="width: 20rem;">
+                <img src="IMGBST/HTMLlogo.jpg" class="card-img-top" alt="Logo HTML">
+                <div class="card-body">
+                    <h5 class="card-title">HTML 5</h5>
+                    <p class="card-text">El uso de esta herramienta requiere un esthudio de sus Docs y practicar a fin
+                        de dominar sus funciones.
+                    </p>
+                    <a target="_blank" href="https://es.wikipedia.org/wiki/HTML" class="btn btn-primary">Ir a HTML</a>
                 </div>
             </div>
         </div>
+        <div class="col">
+            <div class="container fondo-div">
+                <p class="text-start fs-2 opacity-75 parrafo-color-letra">Si bien no es un lenguaje de programación</p>
+                <p class="text-center fs-1 parrafo-color-letra">Es la herramienta de maquetación imprescindible.</p>
+                <p class="text-end fs-3 parrafo-color-letra">Sin dudas, desde él y con él se pueden lograr increíbles
+                    efectos.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text parrafo-color-letra">Some quick example text to build on the card title and make up the
+                    bulk
+                    of the card's content.</p>
+                <a target="_blank" href="https://www.w3schools.com/html/default.asp" class="btn btn-light">HTML 5
+                    w3schools</a>
+            </div>
+        </div>
     </div>
-    <!-- </div>
-    </div> -->
-    
+
     <hr style="color:white">
     
     <!-- Tarjeta de CSS 3 con texto -->
-    <div class="container text-center">
-        <div class="row">
-            <div class="col col-4">
-                <div class="card m-5" style="width: 18rem;">
-                    <img src="IMGBST/CSS3.jpg" class="card-img-top" alt="Logo BTS">
-                    <div class="card-body">
-                        <h5 class="card-title">CSS 3</h5>
-                        <p class="card-text">El uso de esta herramienta requiere un esthudio de sus Docs y practicar a fin
-                            de dominar sus funcioes.
-                        </p>
-                        <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/CSS" class="btn btn-primary">Ir
-                            a CSS 3</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-8">
-                <div class="m-5 fondo-div">
-                    <p class="text-start fs-2 opacity-75 parrafo-color-letra">La creatividad es un hecho fundamental.</p>
-                    <p class="text-center fs-1 parrafo-color-letra">Lo que se quiere hacer marca el camino.</p>
-                    <p class="text-end fs-3 parrafo-color-letra">Cómo se quiere hacer nos marca la herramienta.</p>
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text parrafo-color-letra">Some quick example text to build on the card title and make up the bulk
-                        of the card's content.</p>
-                    <a target="_blank" href="https://www.w3schools.com/Css/" class="btn btn-light">CSS 3 w3schools</a>
+    <div class="container text-center containerMisCards">
+        <div class="col">
+            <div class="card mx-auto" style="width: 20rem;">
+                <img src="IMGBST/CSS3.jpg" class="card-img-top" alt="Logo BTS">
+                <div class="card-body">
+                    <h5 class="card-title">CSS 3</h5>
+                    <p class="card-text">El uso de esta herramienta requiere un esthudio de sus Docs y practicar a fin
+                        de dominar sus funcioes.
+                    </p>
+                    <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/CSS" class="btn btn-primary">Ir
+                        a CSS 3</a>
                 </div>
             </div>
         </div>
+        <div class="col">
+            <div class="m-5 fondo-div">
+                <p class="text-start fs-2 opacity-75 parrafo-color-letra">La creatividad es un hecho fundamental.</p>
+                <p class="text-center fs-1 parrafo-color-letra">Lo que se quiere hacer marca el camino.</p>
+                <p class="text-end fs-3 parrafo-color-letra">Cómo se quiere hacer nos marca la herramienta.</p>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text parrafo-color-letra">Some quick example text to build on the card title and make up the
+                    bulk
+                    of the card's content.</p>
+                <a target="_blank" href="https://www.w3schools.com/Css/" class="btn btn-light">CSS 3 w3schools</a>
+            </div>
+        </div>
     </div>
-    <!-- </div>
-    </div> -->
 
     <hr style="color:white">
-
 
     <!-- Contacto -->
     <form id="form" class="row g-3 m-1">
@@ -246,7 +298,7 @@
                 </label>
             </div>
         </div>
-        <div class="col-12">
+        <div class="col-12 text-center">
             <button type="submit" class="btn btn-primary">Entrar</button>
         </div>
     </form>
@@ -255,7 +307,7 @@
 
     <!-- FOOTER -->
 
-<div class="container-fluid">
+<div class="container-fluid text-center">
     <div class="row p-2 bg-dark text-white">
         <div class="col-xs-12 col-md-6 col-lg-3">
             <p class="h4">N/M</p>
